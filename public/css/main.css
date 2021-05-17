@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  margin-bottom: 80px;
+  margin-top: 160px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  font-family: 'Montserrat';
+  margin-bottom: 40px;
+  padding-top: 140px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 30px;
+  font-family: 'Montserrat';
+  /* padding-top: 40px; */
+  font-weight: 600;
+}
+h4 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.logo img {
+  margin-bottom: 40px;
+}
+.btn {
+  background-color: #8ed8dc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 40px 20px 40px 0;
+  font-size: 25px;
+}
+a,
+p {
+  font-family: 'Montserrat';
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+}
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
